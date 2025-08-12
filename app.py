@@ -99,4 +99,5 @@ with st.expander("count of arrival_time"):
 with st.expander("count of stops"):
      st.write(df_filtered['stops'].value_counts())   
 with st.expander("count of class"):
-     st.write(df_filtered['class'].value_counts())                    
+     st.write(df_filtered['class'].value_counts())  
+                       
